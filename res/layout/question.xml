@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/body"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="提交" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="问诊选项"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Buttontou"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Buttonbi"
+        android:layout_centerHorizontal="true"
+        android:text="头" />
+
+    <Button
+        android:id="@+id/Buttoner"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView21"
+        android:layout_marginTop="28dp"
+        android:layout_toRightOf="@+id/Buttontou"
+        android:text="耳" />
+
+    <Button
+        android:id="@+id/Buttonbi"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Buttoner"
+        android:layout_alignBottom="@+id/Buttoner"
+        android:layout_alignLeft="@+id/Buttontou"
+        android:text="鼻" />
+
+    <Button
+        android:id="@+id/buttonkou"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Buttonbi"
+        android:layout_below="@+id/Buttonbi"
+        android:text="口" />
+
+    <Button
+        android:id="@+id/Buttonshe"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Buttonbi"
+        android:layout_toLeftOf="@+id/Buttonbi"
+        android:text="舌" />
+
+    <Button
+        android:id="@+id/Buttonyan"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonkou"
+        android:layout_alignBottom="@+id/buttonkou"
+        android:layout_alignLeft="@+id/Buttoner"
+        android:text="咽" />
+
+    <Button
+        android:id="@+id/Buttonmian"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Buttonshe"
+        android:layout_alignLeft="@+id/Buttonshe"
+        android:text="面" />
+
+    <Button
+        android:id="@+id/Buttonxiong"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonkou"
+        android:layout_below="@+id/buttonkou"
+        android:text="胸" />
+
+    <Button
+        android:id="@+id/Buttonxin"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Buttonxiong"
+        android:layout_alignBottom="@+id/Buttonxiong"
+        android:layout_alignLeft="@+id/Buttonyan"
+        android:text="心" />
+
+    <Button
+        android:id="@+id/Buttonfu"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Buttonxiong"
+        android:layout_toRightOf="@+id/Buttonshe"
+        android:text="腹" />
+
+    <Button
+        android:id="@+id/Buttonyao"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Buttonxiong"
+        android:layout_toLeftOf="@+id/Buttonxiong"
+        android:text="腰" />
+
+    <Button
+        android:id="@+id/Buttonshen"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Buttonfu"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/Buttonxin"
+        android:text="身" />
+
+    <Button
+        android:id="@+id/Buttonmei"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Buttonshen"
+        android:layout_below="@+id/textView21"
+        android:text="寐" />
+
+    <Button
+        android:id="@+id/Buttonzhi"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Buttonyao"
+        android:layout_toLeftOf="@+id/Buttonyao"
+        android:text="肢" />
+
+    <Button
+        android:id="@+id/Buttonke"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Buttonmei"
+        android:layout_alignBottom="@+id/Buttonmei"
+        android:layout_alignRight="@+id/textView21"
+        android:text="咳" />
+
+    <Button
+        android:id="@+id/Buttontan"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Buttonke"
+        android:layout_below="@+id/Buttonke"
+        android:text="痰" />
+
+    <Button
+        android:id="@+id/Buttonhan"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Buttonshen"
+        android:layout_below="@+id/Buttontan"
+        android:text="汗" />
+
+    <Button
+        android:id="@+id/Buttondabian"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/Buttonxin"
+        android:layout_below="@+id/Buttonfu"
+        android:layout_marginRight="15dp"
+        android:text="大便" />
+
+    <Button
+        android:id="@+id/Buttonxiaobian"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Buttondabian"
+        android:layout_alignBottom="@+id/Buttondabian"
+        android:layout_toLeftOf="@+id/Buttondabian"
+        android:text="小便" />
+
+    <Button
+        android:id="@+id/Buttonguanjie"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Buttonxiaobian"
+        android:layout_below="@+id/Buttonxiaobian"
+        android:text="关节" />
+
+    <CheckBox
+        android:id="@+id/checkBoxneike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonsubmit"
+        android:layout_alignParentLeft="true"
+        android:text="内科" />
+
+    <CheckBox
+        android:id="@+id/checkBoxlaonian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBoxneike"
+        android:layout_alignBottom="@+id/checkBoxneike"
+        android:layout_toRightOf="@+id/checkBoxneike"
+        android:text="老年" />
+
+    <CheckBox
+        android:id="@+id/checkBoxfuke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBoxlaonian"
+        android:layout_alignBottom="@+id/checkBoxlaonian"
+        android:layout_toRightOf="@+id/checkBoxlaonian"
+        android:text="妇科" />
+
+    <CheckBox
+        android:id="@+id/checkBoxerke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonsubmit"
+        android:layout_toRightOf="@+id/checkBoxfuke"
+        android:text="儿科" />
+
+    <CheckBox
+        android:id="@+id/checkBoxguke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBoxerke"
+        android:layout_toRightOf="@+id/checkBoxerke"
+        android:layout_alignParentRight="true"
+        android:text="骨科" />
+
+</RelativeLayout>
